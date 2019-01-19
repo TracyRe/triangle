@@ -6,23 +6,23 @@ $(document).ready(function(){
 
     if (((a + b) < c) || ((b + c) < a) || ((a + c) < b)) {
       $(".not-triangle").show();
-      $(".isosceles").hide());
       $(".equilateral").hide();
-      $(".scalene").hide();
-    } else if ((a === b) || (b === c) || (a === c)) {
-      $(".not-triangle").hide();
-      $(".isosceles").show());
-      $(".equilateral").hide();
+      $(".isosceles").hide();
       $(".scalene").hide();
     } else if ((a === b) && (b === c)) {
       $(".not-triangle").hide();
-      $(".isosceles").hide());
       $(".equilateral").show();
+      $(".isosceles").hide();
+      $(".scalene").hide();
+    } else if ((a === b) || (b === c) || (a === c)) {
+      $(".not-triangle").hide();
+      $(".equilateral").hide();
+      $(".isosceles").show();
       $(".scalene").hide();
     } else {
       $(".not-triangle").hide();
-      $(".isosceles").hide());
       $(".equilateral").hide();
+      $(".isosceles").hide();
       $(".scalene").show();
     }
   event.preventDefault();
