@@ -1,4 +1,4 @@
-# Track Suggester
+# Triangle
 
 #### Form Input Project for Epicodus - 2019-0118
 
