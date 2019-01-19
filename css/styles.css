@@ -1,0 +1,7 @@
+.containter-fluid {
+
+}
+
+.not-triangle, .equilateral, .isosceles, .scalene {
+  display: none;
+}
